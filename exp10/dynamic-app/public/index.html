@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suggestion Box - Avni</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="box">
+    <h1>Suggestion Box</h1>
+    <p class="sub">Experiment 10 - Node.js dynamic app</p>
+    <form id="f">
+      <input id="name" placeholder="Your name" required>
+      <textarea id="text" rows="4" placeholder="Your suggestion" required></textarea>
+      <button>Send</button>
+    </form>
+    <p id="out"></p>
+    <a href="/health" target="_blank">Server health</a> | <a href="/suggest" target="_blank">All suggestions (JSON)</a>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

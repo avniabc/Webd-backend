@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avni - Login System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Secure Login</h1>
+    <p class="sub">Web Designing Lab - Experiment 9 - Avni Gupta</p>
+    <section id="authBox" class="grid">
+      <form id="registerForm" class="card">
+        <h2>Register</h2>
+        <input type="email" id="rEmail" placeholder="Email" required>
+        <input type="password" id="rPass" placeholder="Password (min 8)" minlength="8" required>
+        <button>Register</button>
+        <p id="rMsg" class="msg"></p>
+      </form>
+      <form id="loginForm" class="card">
+        <h2>Login</h2>
+        <input type="email" id="lEmail" placeholder="Email" required>
+        <input type="password" id="lPass" placeholder="Password" required>
+        <button>Login</button>
+        <p id="lMsg" class="msg"></p>
+      </form>
+    </section>
+    <section id="profile" class="card hidden">
+      <h2>Welcome</h2>
+      <p id="who"></p>
+      <button id="logout" class="red">Logout</button>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
